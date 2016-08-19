@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD161A4F1D55CCD300E94931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD161A4E1D55CCD300E94931 /* AppDelegate.swift */; };
+		CD161A511D55CCD300E94931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD161A501D55CCD300E94931 /* ViewController.swift */; };
+		CD161A541D55CCD300E94931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD161A521D55CCD300E94931 /* Main.storyboard */; };
+		CD161A561D55CCD300E94931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD161A551D55CCD300E94931 /* Assets.xcassets */; };
+		CD161A591D55CCD300E94931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD161A571D55CCD300E94931 /* LaunchScreen.storyboard */; };
+		CD161A641D55CCD300E94931 /* SSAI_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD161A631D55CCD300E94931 /* SSAI_DemoTests.swift */; };
+		CD161A6F1D55CCD300E94931 /* SSAI_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD161A6E1D55CCD300E94931 /* SSAI_DemoUITests.swift */; };
+		CDBE4CCD1D644A0E0029EEC2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE4CCC1D644A0E0029EEC2 /* PlayerViewController.swift */; };
+		CDBE4CD11D6455E20029EEC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CD01D6455E20029EEC2 /* AVFoundation.framework */; };
+		CDBE4CD31D6455EE0029EEC2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CD21D6455EE0029EEC2 /* CFNetwork.framework */; };
+		CDBE4CD51D6456020029EEC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CD41D6456020029EEC2 /* CoreGraphics.framework */; };
+		CDBE4CD71D6456100029EEC2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CD61D6456100029EEC2 /* CoreMedia.framework */; };
+		CDBE4CD91D64561D0029EEC2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CD81D64561D0029EEC2 /* CoreText.framework */; };
+		CDBE4CDB1D64562D0029EEC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CDA1D64562D0029EEC2 /* Foundation.framework */; };
+		CDBE4CDD1D64566B0029EEC2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CDC1D64566B0029EEC2 /* libxml2.tbd */; };
+		CDBE4CDF1D64569C0029EEC2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CDE1D64569C0029EEC2 /* libc++.tbd */; };
+		CDBE4CE11D6456B40029EEC2 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CE01D6456B40029EEC2 /* MediaAccessibility.framework */; };
+		CDBE4CE31D6456CA0029EEC2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CE21D6456CA0029EEC2 /* MediaPlayer.framework */; };
+		CDBE4CE51D6456DA0029EEC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CE41D6456DA0029EEC2 /* QuartzCore.framework */; };
+		CDBE4CE71D6456EB0029EEC2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CE61D6456EB0029EEC2 /* Security.framework */; };
+		CDBE4CE91D6456FC0029EEC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CE81D6456FC0029EEC2 /* SystemConfiguration.framework */; };
+		CDBE4CEB1D6457130029EEC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CEA1D6457130029EEC2 /* UIKit.framework */; };
+		CDBE4CEF1D6458110029EEC2 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CEE1D6458110029EEC2 /* OoyalaSDK.framework */; };
+		CDBE4CF71D64CAFD0029EEC2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CF31D6473E00029EEC2 /* AVKit.framework */; };
+		CDBE4CF91D67437C0029EEC2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CF81D67437C0029EEC2 /* FBSDKCoreKit.framework */; };
+		CDBE4CFB1D6743950029EEC2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE4CFA1D6743950029EEC2 /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD161A601D55CCD300E94931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD161A431D55CCD300E94931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD161A4A1D55CCD300E94931;
+			remoteInfo = "SSAI-Demo";
+		};
+		CD161A6B1D55CCD300E94931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD161A431D55CCD300E94931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD161A4A1D55CCD300E94931;
+			remoteInfo = "SSAI-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD161A4B1D55CCD300E94931 /* SSAI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSAI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD161A4E1D55CCD300E94931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD161A501D55CCD300E94931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD161A531D55CCD300E94931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD161A551D55CCD300E94931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD161A581D55CCD300E94931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD161A5A1D55CCD300E94931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD161A5F1D55CCD300E94931 /* SSAI-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSAI-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD161A631D55CCD300E94931 /* SSAI_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAI_DemoTests.swift; sourceTree = "<group>"; };
+		CD161A651D55CCD300E94931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD161A6A1D55CCD300E94931 /* SSAI-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSAI-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD161A6E1D55CCD300E94931 /* SSAI_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAI_DemoUITests.swift; sourceTree = "<group>"; };
+		CD161A701D55CCD300E94931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBE4CCC1D644A0E0029EEC2 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		CDBE4CD01D6455E20029EEC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDBE4CD21D6455EE0029EEC2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CDBE4CD41D6456020029EEC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDBE4CD61D6456100029EEC2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CDBE4CD81D64561D0029EEC2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CDBE4CDA1D64562D0029EEC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDBE4CDC1D64566B0029EEC2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		CDBE4CDE1D64569C0029EEC2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CDBE4CE01D6456B40029EEC2 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		CDBE4CE21D6456CA0029EEC2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CDBE4CE41D6456DA0029EEC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDBE4CE61D6456EB0029EEC2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CDBE4CE81D6456FC0029EEC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDBE4CEA1D6457130029EEC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDBE4CEE1D6458110029EEC2 /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OoyalaSDK.framework; path = "sdk/OoyalaSDK-iOS/OoyalaSDK.framework"; sourceTree = "<group>"; };
+		CDBE4CF01D6459710029EEC2 /* SSAI-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SSAI-Demo-Bridging-Header.h"; path = "SSAI-Demo/SSAI-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDBE4CF31D6473E00029EEC2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		CDBE4CF81D67437C0029EEC2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "sdk/FacebookSDKs-iOS-4.14.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CDBE4CFA1D6743950029EEC2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "sdk/FacebookSDKs-iOS-4.14.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD161A481D55CCD300E94931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE4CF71D64CAFD0029EEC2 /* AVKit.framework in Frameworks */,
+				CDBE4CEB1D6457130029EEC2 /* UIKit.framework in Frameworks */,
+				CDBE4CFB1D6743950029EEC2 /* FBSDKLoginKit.framework in Frameworks */,
+				CDBE4CF91D67437C0029EEC2 /* FBSDKCoreKit.framework in Frameworks */,
+				CDBE4CE91D6456FC0029EEC2 /* SystemConfiguration.framework in Frameworks */,
+				CDBE4CEF1D6458110029EEC2 /* OoyalaSDK.framework in Frameworks */,
+				CDBE4CE71D6456EB0029EEC2 /* Security.framework in Frameworks */,
+				CDBE4CE51D6456DA0029EEC2 /* QuartzCore.framework in Frameworks */,
+				CDBE4CE31D6456CA0029EEC2 /* MediaPlayer.framework in Frameworks */,
+				CDBE4CE11D6456B40029EEC2 /* MediaAccessibility.framework in Frameworks */,
+				CDBE4CDF1D64569C0029EEC2 /* libc++.tbd in Frameworks */,
+				CDBE4CDD1D64566B0029EEC2 /* libxml2.tbd in Frameworks */,
+				CDBE4CDB1D64562D0029EEC2 /* Foundation.framework in Frameworks */,
+				CDBE4CD91D64561D0029EEC2 /* CoreText.framework in Frameworks */,
+				CDBE4CD71D6456100029EEC2 /* CoreMedia.framework in Frameworks */,
+				CDBE4CD51D6456020029EEC2 /* CoreGraphics.framework in Frameworks */,
+				CDBE4CD31D6455EE0029EEC2 /* CFNetwork.framework in Frameworks */,
+				CDBE4CD11D6455E20029EEC2 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A5C1D55CCD300E94931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A671D55CCD300E94931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD161A421D55CCD300E94931 = {
+			isa = PBXGroup;
+			children = (
+				CDBE4CFA1D6743950029EEC2 /* FBSDKLoginKit.framework */,
+				CDBE4CF81D67437C0029EEC2 /* FBSDKCoreKit.framework */,
+				CDBE4CF31D6473E00029EEC2 /* AVKit.framework */,
+				CDBE4CF01D6459710029EEC2 /* SSAI-Demo-Bridging-Header.h */,
+				CDBE4CEE1D6458110029EEC2 /* OoyalaSDK.framework */,
+				CDBE4CEA1D6457130029EEC2 /* UIKit.framework */,
+				CDBE4CE81D6456FC0029EEC2 /* SystemConfiguration.framework */,
+				CDBE4CE61D6456EB0029EEC2 /* Security.framework */,
+				CDBE4CE41D6456DA0029EEC2 /* QuartzCore.framework */,
+				CDBE4CE21D6456CA0029EEC2 /* MediaPlayer.framework */,
+				CDBE4CE01D6456B40029EEC2 /* MediaAccessibility.framework */,
+				CDBE4CDE1D64569C0029EEC2 /* libc++.tbd */,
+				CDBE4CDC1D64566B0029EEC2 /* libxml2.tbd */,
+				CDBE4CDA1D64562D0029EEC2 /* Foundation.framework */,
+				CDBE4CD81D64561D0029EEC2 /* CoreText.framework */,
+				CDBE4CD61D6456100029EEC2 /* CoreMedia.framework */,
+				CDBE4CD41D6456020029EEC2 /* CoreGraphics.framework */,
+				CDBE4CD21D6455EE0029EEC2 /* CFNetwork.framework */,
+				CDBE4CD01D6455E20029EEC2 /* AVFoundation.framework */,
+				CD161A4D1D55CCD300E94931 /* SSAI-Demo */,
+				CD161A621D55CCD300E94931 /* SSAI-DemoTests */,
+				CD161A6D1D55CCD300E94931 /* SSAI-DemoUITests */,
+				CD161A4C1D55CCD300E94931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD161A4C1D55CCD300E94931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD161A4B1D55CCD300E94931 /* SSAI-Demo.app */,
+				CD161A5F1D55CCD300E94931 /* SSAI-DemoTests.xctest */,
+				CD161A6A1D55CCD300E94931 /* SSAI-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD161A4D1D55CCD300E94931 /* SSAI-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CD161A4E1D55CCD300E94931 /* AppDelegate.swift */,
+				CD161A501D55CCD300E94931 /* ViewController.swift */,
+				CD161A521D55CCD300E94931 /* Main.storyboard */,
+				CD161A551D55CCD300E94931 /* Assets.xcassets */,
+				CD161A571D55CCD300E94931 /* LaunchScreen.storyboard */,
+				CD161A5A1D55CCD300E94931 /* Info.plist */,
+				CDBE4CCC1D644A0E0029EEC2 /* PlayerViewController.swift */,
+			);
+			path = "SSAI-Demo";
+			sourceTree = "<group>";
+		};
+		CD161A621D55CCD300E94931 /* SSAI-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD161A631D55CCD300E94931 /* SSAI_DemoTests.swift */,
+				CD161A651D55CCD300E94931 /* Info.plist */,
+			);
+			path = "SSAI-DemoTests";
+			sourceTree = "<group>";
+		};
+		CD161A6D1D55CCD300E94931 /* SSAI-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD161A6E1D55CCD300E94931 /* SSAI_DemoUITests.swift */,
+				CD161A701D55CCD300E94931 /* Info.plist */,
+			);
+			path = "SSAI-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD161A4A1D55CCD300E94931 /* SSAI-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD161A731D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-Demo" */;
+			buildPhases = (
+				CD161A471D55CCD300E94931 /* Sources */,
+				CD161A481D55CCD300E94931 /* Frameworks */,
+				CD161A491D55CCD300E94931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSAI-Demo";
+			productName = "SSAI-Demo";
+			productReference = CD161A4B1D55CCD300E94931 /* SSAI-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD161A5E1D55CCD300E94931 /* SSAI-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD161A761D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-DemoTests" */;
+			buildPhases = (
+				CD161A5B1D55CCD300E94931 /* Sources */,
+				CD161A5C1D55CCD300E94931 /* Frameworks */,
+				CD161A5D1D55CCD300E94931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD161A611D55CCD300E94931 /* PBXTargetDependency */,
+			);
+			name = "SSAI-DemoTests";
+			productName = "SSAI-DemoTests";
+			productReference = CD161A5F1D55CCD300E94931 /* SSAI-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD161A691D55CCD300E94931 /* SSAI-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD161A791D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-DemoUITests" */;
+			buildPhases = (
+				CD161A661D55CCD300E94931 /* Sources */,
+				CD161A671D55CCD300E94931 /* Frameworks */,
+				CD161A681D55CCD300E94931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD161A6C1D55CCD300E94931 /* PBXTargetDependency */,
+			);
+			name = "SSAI-DemoUITests";
+			productName = "SSAI-DemoUITests";
+			productReference = CD161A6A1D55CCD300E94931 /* SSAI-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD161A431D55CCD300E94931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ooyala;
+				TargetAttributes = {
+					CD161A4A1D55CCD300E94931 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B44LSKD6UC;
+					};
+					CD161A5E1D55CCD300E94931 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD161A4A1D55CCD300E94931;
+					};
+					CD161A691D55CCD300E94931 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD161A4A1D55CCD300E94931;
+					};
+				};
+			};
+			buildConfigurationList = CD161A461D55CCD300E94931 /* Build configuration list for PBXProject "SSAI-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD161A421D55CCD300E94931;
+			productRefGroup = CD161A4C1D55CCD300E94931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD161A4A1D55CCD300E94931 /* SSAI-Demo */,
+				CD161A5E1D55CCD300E94931 /* SSAI-DemoTests */,
+				CD161A691D55CCD300E94931 /* SSAI-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD161A491D55CCD300E94931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD161A591D55CCD300E94931 /* LaunchScreen.storyboard in Resources */,
+				CD161A561D55CCD300E94931 /* Assets.xcassets in Resources */,
+				CD161A541D55CCD300E94931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A5D1D55CCD300E94931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A681D55CCD300E94931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD161A471D55CCD300E94931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD161A511D55CCD300E94931 /* ViewController.swift in Sources */,
+				CD161A4F1D55CCD300E94931 /* AppDelegate.swift in Sources */,
+				CDBE4CCD1D644A0E0029EEC2 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A5B1D55CCD300E94931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD161A641D55CCD300E94931 /* SSAI_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD161A661D55CCD300E94931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD161A6F1D55CCD300E94931 /* SSAI_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD161A611D55CCD300E94931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD161A4A1D55CCD300E94931 /* SSAI-Demo */;
+			targetProxy = CD161A601D55CCD300E94931 /* PBXContainerItemProxy */;
+		};
+		CD161A6C1D55CCD300E94931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD161A4A1D55CCD300E94931 /* SSAI-Demo */;
+			targetProxy = CD161A6B1D55CCD300E94931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD161A521D55CCD300E94931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD161A531D55CCD300E94931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD161A571D55CCD300E94931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD161A581D55CCD300E94931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD161A711D55CCD400E94931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD161A721D55CCD400E94931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD161A741D55CCD400E94931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Downloads/FacebookSDKs-iOS-4.14.0",
+					"$(SRCROOT)/sdk/OoyalaSDK-iOS",
+					"$(SRCROOT)/sdk/OoyalaPulseIntegration-iOS",
+					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/sdk/FacebookSDKs-iOS-4.14.0",
+				);
+				INFOPLIST_FILE = "SSAI-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/SSAI-Demo-Bridging-Header.h";
+				VALID_ARCHS = "x86_64 i386 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		CD161A751D55CCD400E94931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Downloads/FacebookSDKs-iOS-4.14.0",
+					"$(SRCROOT)/sdk/OoyalaSDK-iOS",
+					"$(SRCROOT)/sdk/OoyalaPulseIntegration-iOS",
+					"$(PROJECT_DIR)/sdk",
+					"$(PROJECT_DIR)/sdk/FacebookSDKs-iOS-4.14.0",
+				);
+				INFOPLIST_FILE = "SSAI-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/SSAI-Demo-Bridging-Header.h";
+				VALID_ARCHS = "x86_64 i386 arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		CD161A771D55CCD400E94931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SSAI-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSAI-Demo.app/SSAI-Demo";
+			};
+			name = Debug;
+		};
+		CD161A781D55CCD400E94931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SSAI-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSAI-Demo.app/SSAI-Demo";
+			};
+			name = Release;
+		};
+		CD161A7A1D55CCD400E94931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SSAI-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SSAI-Demo";
+			};
+			name = Debug;
+		};
+		CD161A7B1D55CCD400E94931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SSAI-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ooyala.SSAI-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SSAI-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD161A461D55CCD300E94931 /* Build configuration list for PBXProject "SSAI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD161A711D55CCD400E94931 /* Debug */,
+				CD161A721D55CCD400E94931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD161A731D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD161A741D55CCD400E94931 /* Debug */,
+				CD161A751D55CCD400E94931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD161A761D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD161A771D55CCD400E94931 /* Debug */,
+				CD161A781D55CCD400E94931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD161A791D55CCD400E94931 /* Build configuration list for PBXNativeTarget "SSAI-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD161A7A1D55CCD400E94931 /* Debug */,
+				CD161A7B1D55CCD400E94931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD161A431D55CCD300E94931 /* Project object */;
+}
